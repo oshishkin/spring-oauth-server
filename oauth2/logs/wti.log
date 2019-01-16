@@ -1,0 +1,78 @@
+2019-01-16 11:38:00.102  INFO 42363 --- [main] c.w.o.AuthorizationServerApplication     : Starting AuthorizationServerApplication on MacBook-Pro.local with PID 42363 (/Users/oshishkin/Documents/work/WTI/oauth2/build/libs/wemboo-oauth-2.0.1-SNAPSHOT.jar started by oshishkin in /Users/oshishkin/Documents/work/WTI/oauth2)
+2019-01-16 11:38:00.134  INFO 42363 --- [main] c.w.o.AuthorizationServerApplication     : No active profile set, falling back to default profiles: default
+2019-01-16 11:38:01.456  INFO 42363 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 11:38:01.512  INFO 42363 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-01-16 11:38:02.175  INFO 42363 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6479fc3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 11:38:02.807  INFO 42363 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (https)
+2019-01-16 11:38:02.867  INFO 42363 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-16 11:38:02.868  INFO 42363 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-16 11:38:02.895  INFO 42363 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/oshishkin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-16 11:38:03.082  INFO 42363 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-16 11:38:03.082 DEBUG 42363 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-01-16 11:38:03.083  INFO 42363 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2822 ms
+2019-01-16 11:38:03.528  INFO 42363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 11:38:03.830  INFO 42363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 11:38:05.171  INFO 42363 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 11:38:05.273 DEBUG 42363 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-01-16 11:38:05.549  INFO 42363 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 11:38:05.565 DEBUG 42363 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-01-16 11:38:05.639  WARN 42363 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 11:38:05.706 DEBUG 42363 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-01-16 11:38:05.729 DEBUG 42363 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-01-16 11:38:05.758 DEBUG 42363 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-01-16 11:38:05.894  INFO 42363 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-01-16 11:38:06.169 DEBUG 42363 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration$$EnhancerBySpringCGLIB$$82092672@dc7df28}
+2019-01-16 11:38:06.185  INFO 42363 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 865e39e0-32d2-4093-96e2-69c8730ac840
+
+2019-01-16 11:38:06.317 DEBUG 42363 --- [main] s.s.c.a.w.c.WebSecurityConfigurerAdapter : Using default configure(HttpSecurity). If subclassed this will potentially override subclass configure(HttpSecurity).
+2019-01-16 11:38:06.397 DEBUG 42363 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-01-16 11:38:06.409 DEBUG 42363 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-01-16 11:38:06.410 DEBUG 42363 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-01-16 11:38:06.418  INFO 42363 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@660acfb, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d3e8655, org.springframework.security.web.header.HeaderWriterFilter@7dfd3c81, org.springframework.security.web.csrf.CsrfFilter@1b919693, org.springframework.security.web.authentication.logout.LogoutFilter@2d0399f4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@465232e9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@46d59067, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5d908d47, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@23941fb4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@626abbd0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aa078fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5efa40fe, org.springframework.security.web.session.SessionManagementFilter@7bbc8656, org.springframework.security.web.access.ExceptionTranslationFilter@4dc27487, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7dc19a70]
+2019-01-16 11:38:07.086  INFO 42363 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (https) with context path ''
+2019-01-16 11:38:07.092  INFO 42363 --- [main] c.w.o.AuthorizationServerApplication     : Started AuthorizationServerApplication in 7.77 seconds (JVM running for 8.509)
+2019-01-16 11:38:13.033  INFO 42363 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 11:38:13.037  INFO 42363 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 11:38:13.041  INFO 42363 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 11:38:13.056  INFO 42363 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-16 12:01:41.944  INFO 43373 --- [main] c.w.o.AuthorizationServerApplication     : Starting AuthorizationServerApplication on MacBook-Pro.local with PID 43373 (/Users/oshishkin/Documents/work/spring-oauth-server/oauth2/build/libs/wemboo-oauth-2.0.1-SNAPSHOT.jar started by oshishkin in /Users/oshishkin/Documents/work/spring-oauth-server/oauth2)
+2019-01-16 12:01:41.961  INFO 43373 --- [main] c.w.o.AuthorizationServerApplication     : No active profile set, falling back to default profiles: default
+2019-01-16 12:01:43.277  INFO 43373 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-16 12:01:43.343  INFO 43373 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2019-01-16 12:01:44.997  INFO 43373 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$efae1a79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-16 12:01:45.838  INFO 43373 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (https)
+2019-01-16 12:01:45.910  INFO 43373 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-16 12:01:45.911  INFO 43373 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-16 12:01:45.953  INFO 43373 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/oshishkin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-16 12:01:46.139  INFO 43373 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-16 12:01:46.140 DEBUG 43373 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-01-16 12:01:46.141  INFO 43373 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3970 ms
+2019-01-16 12:01:47.025  INFO 43373 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-16 12:01:47.948  INFO 43373 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-16 12:01:49.709  INFO 43373 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 12:01:49.855 DEBUG 43373 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-01-16 12:01:50.303  INFO 43373 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-16 12:01:50.358 DEBUG 43373 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-01-16 12:01:50.493  WARN 43373 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-16 12:01:50.595 DEBUG 43373 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-01-16 12:01:50.647 DEBUG 43373 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-01-16 12:01:50.684 DEBUG 43373 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-01-16 12:01:50.839  INFO 43373 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-01-16 12:01:51.116 DEBUG 43373 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.WebSecurityEnablerConfiguration$$EnhancerBySpringCGLIB$$d3d44ae@1500b2f3}
+2019-01-16 12:01:51.130  INFO 43373 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 982b7095-750e-4b32-9645-f1898fddcc70
+
+2019-01-16 12:01:51.262 DEBUG 43373 --- [main] s.s.c.a.w.c.WebSecurityConfigurerAdapter : Using default configure(HttpSecurity). If subclassed this will potentially override subclass configure(HttpSecurity).
+2019-01-16 12:01:51.346 DEBUG 43373 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'authenticated', for any request
+2019-01-16 12:01:51.358 DEBUG 43373 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-01-16 12:01:51.359 DEBUG 43373 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2019-01-16 12:01:51.367  INFO 43373 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@730d2164, org.springframework.security.web.context.SecurityContextPersistenceFilter@1224144a, org.springframework.security.web.header.HeaderWriterFilter@69ee81fc, org.springframework.security.web.csrf.CsrfFilter@1c9b0314, org.springframework.security.web.authentication.logout.LogoutFilter@7dc3712, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@17503f6b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@565f390, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@24959ca4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@36804139, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@700fb871, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e16c0aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10289886, org.springframework.security.web.session.SessionManagementFilter@6f36c2f0, org.springframework.security.web.access.ExceptionTranslationFilter@49c90a9c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7098b907]
+2019-01-16 12:01:52.090  INFO 43373 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (https) with context path ''
+2019-01-16 12:01:52.095  INFO 43373 --- [main] c.w.o.AuthorizationServerApplication     : Started AuthorizationServerApplication in 11.343 seconds (JVM running for 12.155)
+2019-01-16 12:02:34.966  INFO 43373 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-16 12:02:34.968  INFO 43373 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-16 12:02:34.972  INFO 43373 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-16 12:02:34.989  INFO 43373 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

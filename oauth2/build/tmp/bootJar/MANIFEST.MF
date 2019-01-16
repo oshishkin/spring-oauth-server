@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Start-Class: com.wemboo.oauth.AuthorizationServerApplication
+Main-Class: org.springframework.boot.loader.JarLauncher
+
